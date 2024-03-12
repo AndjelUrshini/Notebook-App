@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
     <title>Text Editor App</title>
 </head>
+
 <body>
     <div class="section">
         <div class="row">
@@ -15,55 +17,41 @@
             <div class="col">
 
                 <div class="first box">
-                    <input type="number"
-                           id="font-size"
-                           min="1"
-                           max="100"
-                           value="18"
-                           onchange="f1(this)">
+                    <input type="number" id="font-size" min="1" max="100" value="18" onchange="f1(this)">
                 </div>
 
                 <div class="second box">
-                    <button type="button"
-                            onclick="f2(this)">
-                            <i class="fa-solid fa-bold"></i>
+                    <button type="button" onclick="f2(this)">
+                        <i class="fa-solid fa-bold"></i>
                     </button>
-                    <button type="button"
-                            onclick="f3(this)">
-                            <i class="fa-solid fa-italic"></i>
+                    <button type="button" onclick="f3(this)">
+                        <i class="fa-solid fa-italic"></i>
                     </button>
-                    <button type="button"
-                            onclick="f4(this)">
-                            <i class="fa-solid fa-underline"></i>
+                    <button type="button" onclick="f4(this)">
+                        <i class="fa-solid fa-underline"></i>
                     </button>
                 </div>
 
                 <div class="third box">
-                    <button type="button"
-                            onclick="f5(this)">
-                            <i class="fa-solid fa-align-left"></i>
+                    <button type="button" onclick="f5(this)">
+                        <i class="fa-solid fa-align-left"></i>
                     </button>
-                    <button type="button"
-                            onclick="f6(this)">
-                            <i class="fa-solid fa-align-center"></i>
+                    <button type="button" onclick="f6(this)">
+                        <i class="fa-solid fa-align-center"></i>
                     </button>
-                    <button type="button"
-                            onclick="f7(this)">
-                            <i class="fa-solid fa-align-right"></i>
+                    <button type="button" onclick="f7(this)">
+                        <i class="fa-solid fa-align-right"></i>
                     </button>
                 </div>
 
                 <div class="fourth box">
-                    <button type="button"   
-                            onclick="f8(this)">
-                            aA
+                    <button type="button" onclick="f8(this)">
+                        aA
                     </button>
-                    <button type="button"   
-                            onclick="f9(this)">
-                            <i class="fa-solid fa-text-slash"></i>
+                    <button type="button" onclick="f9(this)">
+                        <i class="fa-solid fa-text-slash"></i>
                     </button>
-                    <input type="color" 
-                           onchange="f10(this)">
+                    <input type="color" onchange="f10(this)">
 
                     <label for="font-family">Choose a Font: </label>
                     <select name="font-family" id="font-family" onchange="f11(this)">
@@ -87,10 +75,11 @@
                     <button id="button"> Download File </button>
                     <button type="button" id="save">Save this text</button>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

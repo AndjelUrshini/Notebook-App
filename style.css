@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: #555;
     height: 100vh;
@@ -125,4 +124,41 @@ select{
 }
 select option{
     cursor: pointer;
+}
+
+@media (max-width:600px){
+
+    .section{
+        max-width: 320px;
+    }
+    label{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    input[type="number"]{
+        font-size: 15px;
+        width: 30px;
+    }
+    input[type="color"]{
+        width: 30px;
+    }
+    button{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    select{
+        width: 70px;
+    }
+    #filename{
+        padding: 5px;
+        font-size: 12px;
+        width: 110px;
+        margin-right: 5px;
+    }
+    #button{
+        font-size: 12px;
+    }
+    #save{
+        font-size: 12px;
+    }
 }
